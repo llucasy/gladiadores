@@ -48,7 +48,7 @@ function setup() {
     }
 
     up.press = () => {
-        person.anda = 5
+        person.anda = 4
     }
 
     up.release = () => {
@@ -58,7 +58,7 @@ function setup() {
     }
 
     down.press = () => {
-        person.anda = -5
+        person.anda = -2
     }
 
     down.release = () => {
