@@ -1,6 +1,9 @@
+import keyboard from '../mvtfunctions.js'
+import app from '../game.js'
+
 function players (x, y, xStart, yStart, texture, chooseChar) {
 
-    image = new PIXI.Texture(texture, new PIXI.Rectangle(x, y, 64, 64))
+    let image = new PIXI.Texture(texture, new PIXI.Rectangle(x, y, 64, 64))
 
     let person = new PIXI.Sprite(image)
 
@@ -69,3 +72,5 @@ function players (x, y, xStart, yStart, texture, chooseChar) {
 
     return person
 }
+
+export default players

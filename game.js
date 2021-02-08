@@ -1,3 +1,5 @@
+import players from './characters/players.js' 
+
 const app = new PIXI.Application({transparent: false, antialias: true})
 document.body.appendChild(app.view)
 
@@ -37,6 +39,8 @@ function setup() {
       gameLoop();
 
 }
+
+export default app
 
 
 

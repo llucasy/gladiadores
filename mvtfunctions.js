@@ -45,3 +45,5 @@ function keyboard(value) {
     
     return key;
 }
+
+export default keyboard
